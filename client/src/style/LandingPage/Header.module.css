@@ -1,0 +1,62 @@
+.presentacion {
+  background: linear-gradient(rgba(209, 206, 206, 0.445), rgba(209, 206, 206, 0.445)),
+    url("../../img/WallpaperDog-17021754.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+.presentacion a {
+  color: var(--main-color-font-dark);
+}
+.presentacion {
+  margin: auto;
+  columns: var(--main-bg-color-light);
+  display: flex;
+  flex-direction: column;
+  color: var(--main-bg-color-light);
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+.presentacion h1 {
+  font-size: 60px;
+}
+
+.premium {
+  width: fit-content;
+  background-color: var(--secondary-color-items-1);
+  border: none;
+  color: var(--main-color-font-dark);
+  box-sizing: border-box;
+  box-shadow: 5px 5px 0px var(--secondary-color-items-1);
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
+.explore {
+  width: fit-content;
+  background-color: var(--secondary-color-items-4);
+  border: none;
+  color: #1a0750;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 0px var(--secondary-color-items-4);
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
+.presentacion h2 {
+  color: var(--main-bg-color-light);
+  font-size: 30px;
+}
+
+.angle {
+  color: var(--secondary-color-items-1);
+  font-size: 60px;
+}
+
+.link-down {
+  width: fit-content;
+  height: fit-content;
+}
+
